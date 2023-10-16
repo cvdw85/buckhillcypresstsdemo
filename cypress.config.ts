@@ -6,5 +6,11 @@ export default defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
+    env: {
+      CLIENT_USERNAME: "dion.west@example.org",
+      CLIENT_PASSWORD: "userpassword",
+      ADMIN_USERNAME: "admin@buckhill.co.uk",
+      ADMIN_PASSWORD: "admin"
+    },
   },
 });

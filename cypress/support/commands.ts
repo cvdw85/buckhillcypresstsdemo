@@ -35,3 +35,31 @@
 //     }
 //   }
 // }
+
+Cypress.Commands.add('getClientUserAuthToken', (USERNAME,PASSWORD) => {
+    cy.request({
+      method: 'POST',
+      url: 'https://pet-shop.buckhill.com.hr/api/v1/user/login',
+      body: {
+        email: USERNAME,
+        password: PASSWORD,
+      },
+    }).then((response) => {
+      expect(response.status).to.eq(200);
+      Cypress.env('authToken', response.body.data.token); // Store the token in Cypress.env
+    });
+});
+
+Cypress.Commands.add('getAdminUserAuthToken', (USERNAME,PASSWORD) => {
+    cy.request({
+      method: 'POST',
+      url: 'https://pet-shop.buckhill.com.hr/api/v1/admin/login',
+      body: {
+        email: USERNAME,
+        password: PASSWORD,
+      },
+    }).then((response) => {
+      expect(response.status).to.eq(200);
+      Cypress.env('authToken', response.body.data.token); // Store the token in Cypress.env
+    });
+  });
