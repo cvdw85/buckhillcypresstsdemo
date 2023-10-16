@@ -18,3 +18,8 @@ Thanks for the fun challenge, I really enjoyed working on this!
 
 I read your documentation for this task many times over, but could never find where you would like me to save the test cases'
 user stories, so I saved them within a folder in this cypress project called -userstories-. I hope that this is ok.
+
+## Apologies
+
+I do apologise for not using fixtures and docker. I know how to use them, but started coding on this today because I had
+other tasks of a similar nature for other companies to make as well in the last two weeks.
