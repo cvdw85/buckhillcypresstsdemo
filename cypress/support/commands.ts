@@ -36,6 +36,8 @@
 //   }
 // }
 
+
+// I could write some code to dynamically search for a valid username, but I believe that is out of the scope of this task. Woe to me if I am wrong.
 Cypress.Commands.add('getClientUserAuthToken', (USERNAME,PASSWORD) => {
     cy.request({
       method: 'POST',
