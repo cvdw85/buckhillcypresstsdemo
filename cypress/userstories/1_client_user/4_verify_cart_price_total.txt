@@ -43,7 +43,8 @@ Execution date              16/10/2023
                                                         Cart items increased by (1)
 
 8                           Click on the "CART" Button  Your Cart is displayed with     Product&Price displayed     Normal Behaviour    As Expected
+                                                        Product&Price displayed
 
-9                           Click "PROCEED TO CHECKOUT" The Checkout form is displayed  Input form is displayed     Normal Behaviour    As Expected
+9                           Verify the Cart Price Total The Correct Total is displayed  It is displayed             Normal Behaviour    As Expected
 
-10                          Click "REMOVE FROM CART"    The Cat food is gone            It is not displayed         Normal Behaviour    As Expected
+10                          Verify the Correct Product  Purina Fancy Feast displayed    It is displayed             Normal Behaviour    As Expected
