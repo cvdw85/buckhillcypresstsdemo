@@ -1,0 +1,35 @@
+Project name                EXAMPLE_PET
+
+Test scenario name          login as client user
+
+Test scenario ID            EXAMPLE_PET_1
+
+Test Priority               HIGH
+ 
+
+Final results               SUCCESS
+
+Cypress link                loginClientUser
+
+Designed by                 Cobus van der Walt
+
+Designed date               16/10/2023
+
+Last modified by            16/10/2023
+
+Last modified date          Cobus van der Walt
+
+Executed by                 Cobus van der Walt
+
+Execution date              16/10/2023
+
+#                           Test case step              Expected results                Actual results              Comment             Results
+                                                                                                                                        As Expected/Not
+
+1                           Visit the BaseURL           The Login UI is displayed       It is displayed             Normal Behaviour    As Expected
+
+2                           Enter Client Username       Client email is visible         It is displayed             Normal Behaviour    As Expected
+
+3                           Enter Admin Password        Visibly masked with asterisks   Displayed by asterisks      Normal Behaviour    As Expected
+
+4                           Click the LOG IN Button     Logout Button + Avatar Visible  They are displayed          Normal Behaviour    As Expected

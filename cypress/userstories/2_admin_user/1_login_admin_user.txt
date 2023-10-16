@@ -1,0 +1,36 @@
+Project name                EXAMPLE_PET
+
+Test scenario name          login as an admin user
+
+Test scenario ID            EXAMPLE_PET_1
+
+Test Priority               HIGH
+ 
+
+Final results               SUCCESS
+
+Cypress link                loginAdminUser.cy.ts
+
+Designed by                 Cobus van der Walt
+
+Designed date               16/10/2023
+
+Last modified by            Cobus van der Walt
+
+Last modified date          16/10/2023
+
+Executed by                 Cobus van der Walt
+
+Execution date              16/10/2023
+
+#                           Test case step              Expected results                Actual results              Comment             Results
+                                                                                                                                        As Expected/Not
+
+1                           Visit the BaseURL           The Login UI is displayed       It is displayed             Normal Behaviour    As Expected
+
+2                           Enter Admin Username        Username is visibly entered     It is displayed             Normal Behaviour    As Expected
+
+3                           Enter Admin Password        Visibly masked with asterisks   Displayed by asterisks      Normal Behaviour    As Expected
+
+4                           Click the LOG IN Button     Admin sees the dashboard        Dashboard is displayed      Normal Behaviour    As Expected
+                                                                                                                                        
