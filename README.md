@@ -13,3 +13,8 @@ It is in the -bugs- folder you instructed me to create as well within this cypre
 
 Static ID's would be a charm.
 Thanks for the fun challenge, I really enjoyed working on this!
+
+## User Stories/Journeys
+
+I read your documentation for this task many times over, but could never find where you would like me to save the test cases'
+user stories, so I saved them within a folder in this cypress project called -userstories-. I hope that this is ok.

@@ -1,6 +1,6 @@
 Project name                EXAMPLE_PET
 
-Test scenario name          Login as client user
+Test scenario name          Add cat food to cart
 
 Test scenario ID            EXAMPLE_PET_1
 
@@ -9,7 +9,7 @@ Test Priority               HIGH
 
 Final results               SUCCESS
 
-Cypress link                loginClientUser.cy.ts
+Cypress link                addCatFoodToCart.cy.ts
 
 Designed by                 Cobus van der Walt
 
@@ -33,3 +33,11 @@ Execution date              16/10/2023
 3                           Enter Admin Password        Visibly masked with asterisks   Displayed by asterisks      Normal Behaviour    As Expected
 
 4                           Click the LOG IN Button     Logout Button + Avatar Visible  They are displayed          Normal Behaviour    As Expected
+
+5                           Enter "Food" at the search  A list of foods is shown        They are displayed          Normal Behaviour    As Expected
+                            field and press enter      
+
+6                           Select Purina Fancy Feast   Fancy Feast 24 cans displayed   It is displayed             Normal Behaviour    As Expected
+
+7                           Click "ADD TO CART" Button  Remove from Cart Text displayed Texts are updated           Normal Behaviour    As Expected
+                                                        Cart items increased by (1)     
