@@ -13,5 +13,8 @@ describe('Petshop Admin Tests', () => {
             .type(Cypress.env('ADMIN_PASSWORD'))
             .type('{enter}')
         cy.get('.v-btn').click();
+        cy.get(':nth-child(4) > :nth-child(1) > a > .v-list-item > .v-list-item__content > .v-list-item-title').click();
+        cy.get('.table-header__content > .v-btn > .v-btn__content').click();
+        cy.get('div.v-col.v-col-12.pb-0 > div:nth-child(2) > p').should('have.text', 'Product Image');
     })
 })

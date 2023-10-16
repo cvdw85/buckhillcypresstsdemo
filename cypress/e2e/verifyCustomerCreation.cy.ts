@@ -13,5 +13,8 @@ describe('Petshop Admin Tests', () => {
             .type(Cypress.env('ADMIN_PASSWORD'))
             .type('{enter}')
         cy.get('.v-btn').click();
+        cy.get(':nth-child(3) > :nth-child(1) > a > .v-list-item').click();
+        cy.get('.table-header__content > .v-btn > .v-btn__content').click();
+        cy.get('div:nth-child(1) > div > div.d-flex.justify-space-between.mb-5 > p').should('have.text', 'Add new customer');
     })
 })
