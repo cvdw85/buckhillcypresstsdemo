@@ -2,7 +2,7 @@ Project name                EXAMPLE_PET
 
 Test scenario name          login as an admin user
 
-Test scenario ID            EXAMPLE_PET_1
+Test scenario ID            EXAMPLE_PET_2_1
 
 Test Priority               HIGH
  

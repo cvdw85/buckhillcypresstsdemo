@@ -2,7 +2,7 @@ Project name                EXAMPLE_PET
 
 Test scenario name          Verify product creation
 
-Test scenario ID            EXAMPLE_PET_1
+Test scenario ID            EXAMPLE_PET_2_3
 
 Test Priority               HIGH
  

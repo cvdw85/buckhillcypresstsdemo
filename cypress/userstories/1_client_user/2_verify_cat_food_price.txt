@@ -2,7 +2,7 @@ Project name                EXAMPLE_PET
 
 Test scenario name          Verify cat food price
 
-Test scenario ID            EXAMPLE_PET_1
+Test scenario ID            EXAMPLE_PET_1_2
 
 Test Priority               HIGH
  

@@ -2,7 +2,7 @@ Project name                EXAMPLE_PET
 
 Test scenario name          Verify Customer Creation
 
-Test scenario ID            EXAMPLE_PET_1
+Test scenario ID            EXAMPLE_PET_2_2
 
 Test Priority               HIGH
  

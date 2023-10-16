@@ -2,7 +2,7 @@ Project name                EXAMPLE_PET
 
 Test scenario name          Add cat food to cart
 
-Test scenario ID            EXAMPLE_PET_1
+Test scenario ID            EXAMPLE_PET_1_3
 
 Test Priority               HIGH
  
